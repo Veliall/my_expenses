@@ -8,9 +8,5 @@ class MainKotest : StringSpec(
         "workTest should return correct text" {
             workTest() shouldBe ("Everything work! Great!")
         }
-
-        "workTest2 should return correct text" {
-            workTest() shouldBe ("Everything work! Great!")
-        }
     }
 )

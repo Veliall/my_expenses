@@ -9,7 +9,6 @@ dependencies {
     val kotestVersion: String by project
     testImplementation("io.kotest:kotest-runner-junit5-jvm:$kotestVersion")
     implementation(kotlin("test-junit5"))
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     implementation(kotlin("stdlib-jdk8"))
 }
 

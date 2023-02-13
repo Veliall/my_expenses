@@ -6,9 +6,11 @@ import io.kotest.matchers.shouldBe
 class MainKotest : StringSpec(
     {
         "workTest should return correct text" {
-            val result = workTest();
-            println(result)
-            result shouldBe ("Everything work! Great!")
+            workTest() shouldBe ("Everything work! Great!")
+        }
+
+        "workTest2 should return correct text" {
+            workTest() shouldBe ("Everything work! Great!")
         }
     }
 )
